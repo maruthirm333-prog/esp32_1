@@ -1,2 +1,18 @@
 # esp32_1
 first project 
+code:
+ const int led = 23;
+
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(led, HIGH);
+  delay(1000);
+
+  digitalWrite(led, LOW);
+  delay(1000);
+}
